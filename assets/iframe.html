@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!-- http://garden.zendesk.com -->
+		<link rel="stylesheet" href="https://assets.zendesk.com/apps/sdk-assets/css/1/zendesk_garden.css" type="text/css">
+		<link rel="stylesheet" href="main.css" type="text/css">
+	</head>
+	<body>
+		<div class="ko-articles-cntr slide current">
+			<div class="ko-search-cntr">
+				<input id="ko-search" class="ko-search ko-text-input" type="text" placeholder="Search for articles..." />
+			</div>
+			<div class="ko-searching">
+				Searching for related articles...
+			</div>
+			<div id="ko-content"></div>
+			<script id="article-results" type="text/x-handlebars-template">
+				<div id="koSuggestions">
+					<h2>Suggested articles:</h2>
+					<table class="table table-condensed">
+						<tbody>
+							{{#each articles}}
+							<tr>
+								<td class="paste-article-link">Insert</td>
+								<td>
+									<a class="ko-article-link" href="{{url}}" target="_blank">{{name}}</a>
+								</td>
+							</tr>
+							{{/each}}
+						</tbody>
+					</table>
+					{{#unless articles.length}}
+						<p class="no-articles">No matching articles found.</p>
+					{{/unless}}
+				</div>
+			</script>
+			<div class="ko-slidetrigger-cntr">
+				<div class="ko-createfrom ko-toggle-panel">Create article from reply &rarr;</div>
+			</div>
+		</div>
+		<div class="ko-create-cntr slide moved-right" style="display: none;">
+			<h2 class="create-article-header">Create Article from Reply</h2>
+			<div class="article-details">
+				<label for="article-name">Article Name</label>
+				<input id="article-name" class="ko-text-input" type="text" />
+				<label for="article-body">Article Body</label>
+				<textarea id="article-body" rows="7" class="ko-text-input"></textarea>
+				<div class="create-btn-cntr">
+					<div class="create-error" style="display: none;">
+						<span class="create-error-text">The article name and body cannot be empty.</span>
+						<span class="create-error-caret"></span>
+					</div>
+					<button type="button" id="create-art">Create Article</button>
+				</div>
+			</div>
+			<div class="ko-slidetrigger-cntr">
+				<div class="ko-createback ko-toggle-panel">&larr; Back to articles</div>
+			</div>
+			<div class="working-overlay" style="display:none;"></div>
+			<div class="working-message-cntr" style="display:none;">
+				<div class="working-message">
+					<span>Creating article...</span>
+				</div>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://assets.zendesk.com/apps/sdk/2.0/zaf_sdk.js"></script>
+		<script src="https://cdn.jsdelivr.net/handlebarsjs/4.0.8/handlebars.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
