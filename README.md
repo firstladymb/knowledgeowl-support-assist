@@ -9,6 +9,8 @@ Brings your KnowledgeOwl knowledge base into Zendesk Support tickets.
 - Insert links to articles
 - Create new articles from tickets
 
+Please submit bug reports to <support@knowledgeowl.com>. Pull requests are welcome :)
+
 ### Suggest answers
 
 The app searches for articles in your knowledge base using the ticket subject. Relevant articles will display to the right of the ticket.
@@ -34,8 +36,6 @@ Since the app uses the API, there’s no need for extra KnowledgeOwl users for y
 Thousands of people use KnowledgeOwl to create and manage knowledge bases. Create a knowledge base that matches your brand’s look and feel. Take advantage of Enterprise-grade features and premium services. Best of all? KnowledgeOwl integrates with Zendesk to provide you with the best of both worlds.
 
 Visit the website to learn more about KnowledgeOwl and our [knowledge base software](https://www.knowledgeowl.com/home).
-
-Please submit bug reports to <support@knowledgeowl.com>. Pull requests are welcome.
 
 ### Screenshot(s):
 [put your screenshots down here.]
