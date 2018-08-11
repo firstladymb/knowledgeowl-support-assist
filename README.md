@@ -1,14 +1,15 @@
-# App name
+# KnowledgeOwl Support Assist
 
-[brief description of the app]
+Brings your KnowledgeOwl knowledge base into Zendesk Support tickets.
 
-### The following information is displayed:
+### Functionality includes:
 
-* info1
-* info2
-* info3
+* Suggesting relevant articles based on ticket subjects
+* Searching the knowledge base
+* Inserting links 
+* Create new articles 
 
-Please submit bug reports to [Insert Link](). Pull requests are welcome.
+Please submit bug reports to [support@knowledgeowl.com](support@knowledgeowl.com). Pull requests are welcome.
 
 ### Screenshot(s):
 [put your screenshots down here.]
