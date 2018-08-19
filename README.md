@@ -38,4 +38,9 @@ Thousands of people use KnowledgeOwl to create and manage knowledge bases. Creat
 Visit the website to learn more about KnowledgeOwl and our [knowledge base software](https://www.knowledgeowl.com/home).
 
 ### Screenshot(s):
-[put your screenshots down here.]
+![Suggest relevant articles](/assets/screenshot-0.png "Suggest relevant articles")
+
+![Search for articles](/assets/screenshot-1.png "Search for articles")
+
+![Create articles from ticket](/assets/screenshot-2.png "Create articles from ticket")
+
