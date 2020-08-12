@@ -22,14 +22,7 @@
 							{{#each articles}}
 							<tr>
 								<td class="paste-article-link">Insert</td>
-								<td>
-									<a class="ko-article-link" href="{{url}}" target="_blank">
-										{{name}} 
-										{{#is "{{tags}}" '5e38b502ec161c3b78b32414'}}
-											Flow
-										{{/is}}
-									</a>
-								</td>
+								<td><a class="ko-article-link" href="{{url}}" target="_blank">{{name}} <span>{{tags}}</span></a>/td>
 							</tr>
 							{{/each}}
 						</tbody>
